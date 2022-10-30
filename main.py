@@ -12,7 +12,7 @@ aux = schoolDao.read_teacher_renzo()
 write_a_json(aux, '1A')
 
 # B
-
+aux = schoolDao.read_teacher_M()
 # wj(aux, '1B')
 write_a_json(aux, '1B')
 
