@@ -1,0 +1,20 @@
+[
+    {
+        "substring(n.name, 3, 1)": "n"
+    },
+    {
+        "substring(n.name, 3, 1)": "i"
+    },
+    {
+        "substring(n.name, 3, 1)": "a"
+    },
+    {
+        "substring(n.name, 3, 1)": "c"
+    },
+    {
+        "substring(n.name, 3, 1)": "z"
+    },
+    {
+        "substring(n.name, 3, 1)": "t"
+    }
+]

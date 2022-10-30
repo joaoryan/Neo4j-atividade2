@@ -16,7 +16,7 @@ class TeacherCRUD:
 
     def update(self, name, newCpf):
         return self.db.execute_query(
-            'MATCH (n:Teacher {name:$name}) SET n.cpf = $age RETURN n',
+            'MATCH (n:Teacher {name:$name}) SET n.cpf = $cpf RETURN n',
             {'name': name, 'cpf': newCpf})
 
     def delete(self, name):
